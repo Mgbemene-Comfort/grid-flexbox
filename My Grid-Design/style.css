@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(243, 210, 210, 0.986);
+  height: 100vh;
+  display: flex;
+  place-items: center;
+  padding: 20px;
+}
+header {
+  place-items: top;
+  text-align: left;
+}
+main {
+  display: grid;
+  width: 50%;
+  margin: auto;
+  grid-template-areas:
+    "r r r y y y y"
+    "r r r y y y y"
+    "g g b b b b b"
+    "g g o o o o o";
+  gap: 1%;
+  grid-template-columns: 150px;
+  grid-template-rows: 150px;
+  position: relative;
+}
+.item-r {
+  background-color: red;
+  grid-area: r;
+  width: 300px;
+  height: 150px;
+  padding: 15px;
+}
+.item-y {
+  background-color: yellowgreen;
+  grid-area: y;
+  width: 150px;
+  height: 150px;
+  padding: 35px;
+}
+.item-g {
+  background-color: seagreen;
+  grid-area: g;
+  width: 200px;
+  height: 150px;
+  padding: 15px 30px;
+}
+.item-b {
+  background-color: blueviolet;
+  grid-area: b;
+  width: 250px;
+  height: 70px;
+}
+.item-o {
+  background-color: orangered;
+  grid-area: o;
+  width: 250px;
+  height: 75px;
+}
+@media screen and (max-width: 960px) and (min-width: 600px) {
+  main {
+    display: grid;
+    width: 50%;
+    margin: auto;
+    grid-template-areas:
+      "r r r y y y y"
+      "r r r y y y y"
+      "g g b b b b b"
+      "g g o o o o o";
+    gap: 1%;
+    grid-template-columns: 150px;
+    grid-template-rows: 150px;
+  }
+}

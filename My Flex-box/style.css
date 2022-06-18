@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+main{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+    flex-direction: row;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+    padding: 2em;
+    color: hsl(0, 0%,  95%);
+    width: 1100px;
+    height: fit-content;
+}
+.sedans p{
+    font-family: 'Lexend Deca Regular' sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+.sedanbtn{
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 20px;
+    color: hsl(0, 0%,  95%);
+    border-color: hsl(0, 0%,  95%);
+    padding: 10px;
+    size: 2px;
+}
+.sedans h2{
+    font-family: 'Big Shoulders Display' cursive;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em;
+    color: hsl(0, 0%,  95%);
+    width: 1100px;
+    height: fit-content;
+}
+.suvs p{
+    font-family: 'Lexend Deca Regular' sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+.suvs h2{
+    font-family: 'Big Shoulders Display' cursive;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.suvsbtn{
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 20px;
+    color: hsl(0, 0%,  95%);
+    border-color: hsl(0, 0%,  95%);
+    padding: 10px;
+    size: 2px;
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    padding: 2em;
+    color: hsl(0, 0%,  95%);
+    width: 1100px;
+    height: fit-content;
+}
+.luxury p{
+    font-family: 'Lexend Deca Regular' sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+.luxury h2{
+    font-family: 'Big Shoulders Display' cursive;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.luxurybtn{
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 20px;
+    color: hsl(0, 0%,  95%);
+    border-color: hsl(0, 0%,  95%);
+    padding: 10px;
+    size: 2px;
+}
+@media screen and (max-width: 1440px) {
+    .sedans{
+        width: 33.3%;
+    }
+    .suvs{
+        width: 33.3%;
+    }
+    .luxury{
+        width: 33.3%; 
+    }
+}
+@media screen and (max-width: 375px) {
+    .sedans{
+        width: 100%;
+    }
+    .suvs{
+        width: 100%;
+    }
+    .luxury{
+        width: 100%; 
+    }
+}
