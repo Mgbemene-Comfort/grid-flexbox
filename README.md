@@ -1,2 +1,2 @@
 # grid-flexbox
-https://github.com/Mgbemene-Comfort/grid-flexbox
+https://mgbemene-comfort.github.io/grid-flexbox/
